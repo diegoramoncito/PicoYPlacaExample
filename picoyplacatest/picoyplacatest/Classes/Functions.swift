@@ -91,7 +91,7 @@ func safe(plate: String, datetime: String)-> String{
 func cleanPlate(plate: String)->String{
     var workPlate = plate.trimmingCharacters(in: .whitespacesAndNewlines)
     workPlate = workPlate.replacingOccurrences(of: " ", with: "")
-    workPlate = workPlate.replacingOccurrences(of: "-", with: "0")
+    workPlate = workPlate.replacingOccurrences(of: "-", with: "")
     return workPlate
 }
 
