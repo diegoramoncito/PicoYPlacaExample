@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FC2972723A9AF45004BA2B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2972623A9AF45004BA2B2 /* AppDelegate.swift */; };
+		5FC2972923A9AF45004BA2B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2972823A9AF45004BA2B2 /* ViewController.swift */; };
+		5FC2972C23A9AF45004BA2B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC2972A23A9AF45004BA2B2 /* Main.storyboard */; };
+		5FC2972F23A9AF45004BA2B2 /* picoyplacatest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2972D23A9AF45004BA2B2 /* picoyplacatest.xcdatamodeld */; };
+		5FC2973123A9AF4C004BA2B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC2973023A9AF4C004BA2B2 /* Assets.xcassets */; };
+		5FC2973423A9AF4C004BA2B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC2973223A9AF4C004BA2B2 /* LaunchScreen.storyboard */; };
+		5FC2973F23A9AF4C004BA2B2 /* picoyplacatestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2973E23A9AF4C004BA2B2 /* picoyplacatestTests.swift */; };
+		5FC2974A23A9AF4C004BA2B2 /* picoyplacatestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2974923A9AF4C004BA2B2 /* picoyplacatestUITests.swift */; };
+		5FC2976F23A9CF82004BA2B2 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2975923A9CF80004BA2B2 /* IQBarButtonItem.swift */; };
+		5FC2977023A9CF82004BA2B2 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2975A23A9CF80004BA2B2 /* IQInvocation.swift */; };
+		5FC2977123A9CF82004BA2B2 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2975B23A9CF80004BA2B2 /* IQPreviousNextView.swift */; };
+		5FC2977223A9CF82004BA2B2 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2975C23A9CF80004BA2B2 /* IQTitleBarButtonItem.swift */; };
+		5FC2977323A9CF82004BA2B2 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2975D23A9CF80004BA2B2 /* IQToolbar.swift */; };
+		5FC2977423A9CF82004BA2B2 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2975E23A9CF80004BA2B2 /* IQUIView+IQKeyboardToolbar.swift */; };
+		5FC2977523A9CF82004BA2B2 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2976123A9CF81004BA2B2 /* IQTextView.swift */; };
+		5FC2977623A9CF82004BA2B2 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2976323A9CF81004BA2B2 /* IQKeyboardManagerConstants.swift */; };
+		5FC2977723A9CF82004BA2B2 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2976423A9CF81004BA2B2 /* IQKeyboardManagerConstantsInternal.swift */; };
+		5FC2977823A9CF82004BA2B2 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5FC2976623A9CF81004BA2B2 /* IQKeyboardManager.bundle */; };
+		5FC2977923A9CF82004BA2B2 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2976723A9CF82004BA2B2 /* IQKeyboardManager.swift */; };
+		5FC2977A23A9CF82004BA2B2 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2976923A9CF82004BA2B2 /* IQNSArray+Sort.swift */; };
+		5FC2977B23A9CF82004BA2B2 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2976A23A9CF82004BA2B2 /* IQUIScrollView+Additions.swift */; };
+		5FC2977C23A9CF82004BA2B2 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2976B23A9CF82004BA2B2 /* IQUITextFieldView+Additions.swift */; };
+		5FC2977D23A9CF82004BA2B2 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2976C23A9CF82004BA2B2 /* IQUIView+Hierarchy.swift */; };
+		5FC2977E23A9CF82004BA2B2 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2976D23A9CF82004BA2B2 /* IQUIViewController+Additions.swift */; };
+		5FC2977F23A9CF82004BA2B2 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2976E23A9CF82004BA2B2 /* IQKeyboardReturnKeyHandler.swift */; };
+		5FC2978223A9D3BA004BA2B2 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2978123A9D3BA004BA2B2 /* Functions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FC2973B23A9AF4C004BA2B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FC2971B23A9AF45004BA2B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FC2972223A9AF45004BA2B2;
+			remoteInfo = picoyplacatest;
+		};
+		5FC2974623A9AF4C004BA2B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FC2971B23A9AF45004BA2B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FC2972223A9AF45004BA2B2;
+			remoteInfo = picoyplacatest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FC2972323A9AF45004BA2B2 /* picoyplacatest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = picoyplacatest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC2972623A9AF45004BA2B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FC2972823A9AF45004BA2B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FC2972B23A9AF45004BA2B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FC2972E23A9AF45004BA2B2 /* picoyplacatest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = picoyplacatest.xcdatamodel; sourceTree = "<group>"; };
+		5FC2973023A9AF4C004BA2B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FC2973323A9AF4C004BA2B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FC2973523A9AF4C004BA2B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FC2973A23A9AF4C004BA2B2 /* picoyplacatestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = picoyplacatestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC2973E23A9AF4C004BA2B2 /* picoyplacatestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picoyplacatestTests.swift; sourceTree = "<group>"; };
+		5FC2974023A9AF4C004BA2B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FC2974523A9AF4C004BA2B2 /* picoyplacatestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = picoyplacatestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC2974923A9AF4C004BA2B2 /* picoyplacatestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picoyplacatestUITests.swift; sourceTree = "<group>"; };
+		5FC2974B23A9AF4C004BA2B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FC2975923A9CF80004BA2B2 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		5FC2975A23A9CF80004BA2B2 /* IQInvocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQInvocation.swift; sourceTree = "<group>"; };
+		5FC2975B23A9CF80004BA2B2 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		5FC2975C23A9CF80004BA2B2 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		5FC2975D23A9CF80004BA2B2 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		5FC2975E23A9CF80004BA2B2 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		5FC2975F23A9CF81004BA2B2 /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		5FC2976123A9CF81004BA2B2 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		5FC2976323A9CF81004BA2B2 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		5FC2976423A9CF81004BA2B2 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		5FC2976623A9CF81004BA2B2 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		5FC2976723A9CF82004BA2B2 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		5FC2976923A9CF82004BA2B2 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		5FC2976A23A9CF82004BA2B2 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		5FC2976B23A9CF82004BA2B2 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		5FC2976C23A9CF82004BA2B2 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		5FC2976D23A9CF82004BA2B2 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		5FC2976E23A9CF82004BA2B2 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		5FC2978123A9D3BA004BA2B2 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FC2972023A9AF45004BA2B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC2973723A9AF4C004BA2B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC2974223A9AF4C004BA2B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FC2971A23A9AF45004BA2B2 = {
+			isa = PBXGroup;
+			children = (
+				5FC2972523A9AF45004BA2B2 /* picoyplacatest */,
+				5FC2973D23A9AF4C004BA2B2 /* picoyplacatestTests */,
+				5FC2974823A9AF4C004BA2B2 /* picoyplacatestUITests */,
+				5FC2972423A9AF45004BA2B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FC2972423A9AF45004BA2B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FC2972323A9AF45004BA2B2 /* picoyplacatest.app */,
+				5FC2973A23A9AF4C004BA2B2 /* picoyplacatestTests.xctest */,
+				5FC2974523A9AF4C004BA2B2 /* picoyplacatestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FC2972523A9AF45004BA2B2 /* picoyplacatest */ = {
+			isa = PBXGroup;
+			children = (
+				5FC2978023A9D392004BA2B2 /* Classes */,
+				5FC2975723A9CF1E004BA2B2 /* helpers */,
+				5FC2972623A9AF45004BA2B2 /* AppDelegate.swift */,
+				5FC2972823A9AF45004BA2B2 /* ViewController.swift */,
+				5FC2972A23A9AF45004BA2B2 /* Main.storyboard */,
+				5FC2973023A9AF4C004BA2B2 /* Assets.xcassets */,
+				5FC2973223A9AF4C004BA2B2 /* LaunchScreen.storyboard */,
+				5FC2973523A9AF4C004BA2B2 /* Info.plist */,
+				5FC2972D23A9AF45004BA2B2 /* picoyplacatest.xcdatamodeld */,
+			);
+			path = picoyplacatest;
+			sourceTree = "<group>";
+		};
+		5FC2973D23A9AF4C004BA2B2 /* picoyplacatestTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FC2973E23A9AF4C004BA2B2 /* picoyplacatestTests.swift */,
+				5FC2974023A9AF4C004BA2B2 /* Info.plist */,
+			);
+			path = picoyplacatestTests;
+			sourceTree = "<group>";
+		};
+		5FC2974823A9AF4C004BA2B2 /* picoyplacatestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FC2974923A9AF4C004BA2B2 /* picoyplacatestUITests.swift */,
+				5FC2974B23A9AF4C004BA2B2 /* Info.plist */,
+			);
+			path = picoyplacatestUITests;
+			sourceTree = "<group>";
+		};
+		5FC2975723A9CF1E004BA2B2 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5FC2976823A9CF82004BA2B2 /* Categories */,
+				5FC2976223A9CF81004BA2B2 /* Constants */,
+				5FC2976723A9CF82004BA2B2 /* IQKeyboardManager.swift */,
+				5FC2975F23A9CF81004BA2B2 /* IQKeyboardManagerSwift.h */,
+				5FC2976E23A9CF82004BA2B2 /* IQKeyboardReturnKeyHandler.swift */,
+				5FC2976023A9CF81004BA2B2 /* IQTextView */,
+				5FC2975823A9CF80004BA2B2 /* IQToolbar */,
+				5FC2976523A9CF81004BA2B2 /* Resources */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		5FC2975823A9CF80004BA2B2 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				5FC2975923A9CF80004BA2B2 /* IQBarButtonItem.swift */,
+				5FC2975A23A9CF80004BA2B2 /* IQInvocation.swift */,
+				5FC2975B23A9CF80004BA2B2 /* IQPreviousNextView.swift */,
+				5FC2975C23A9CF80004BA2B2 /* IQTitleBarButtonItem.swift */,
+				5FC2975D23A9CF80004BA2B2 /* IQToolbar.swift */,
+				5FC2975E23A9CF80004BA2B2 /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		5FC2976023A9CF81004BA2B2 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				5FC2976123A9CF81004BA2B2 /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		5FC2976223A9CF81004BA2B2 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				5FC2976323A9CF81004BA2B2 /* IQKeyboardManagerConstants.swift */,
+				5FC2976423A9CF81004BA2B2 /* IQKeyboardManagerConstantsInternal.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		5FC2976523A9CF81004BA2B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5FC2976623A9CF81004BA2B2 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5FC2976823A9CF82004BA2B2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5FC2976923A9CF82004BA2B2 /* IQNSArray+Sort.swift */,
+				5FC2976A23A9CF82004BA2B2 /* IQUIScrollView+Additions.swift */,
+				5FC2976B23A9CF82004BA2B2 /* IQUITextFieldView+Additions.swift */,
+				5FC2976C23A9CF82004BA2B2 /* IQUIView+Hierarchy.swift */,
+				5FC2976D23A9CF82004BA2B2 /* IQUIViewController+Additions.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		5FC2978023A9D392004BA2B2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5FC2978123A9D3BA004BA2B2 /* Functions.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FC2972223A9AF45004BA2B2 /* picoyplacatest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FC2974E23A9AF4C004BA2B2 /* Build configuration list for PBXNativeTarget "picoyplacatest" */;
+			buildPhases = (
+				5FC2971F23A9AF45004BA2B2 /* Sources */,
+				5FC2972023A9AF45004BA2B2 /* Frameworks */,
+				5FC2972123A9AF45004BA2B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = picoyplacatest;
+			productName = picoyplacatest;
+			productReference = 5FC2972323A9AF45004BA2B2 /* picoyplacatest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FC2973923A9AF4C004BA2B2 /* picoyplacatestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FC2975123A9AF4C004BA2B2 /* Build configuration list for PBXNativeTarget "picoyplacatestTests" */;
+			buildPhases = (
+				5FC2973623A9AF4C004BA2B2 /* Sources */,
+				5FC2973723A9AF4C004BA2B2 /* Frameworks */,
+				5FC2973823A9AF4C004BA2B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FC2973C23A9AF4C004BA2B2 /* PBXTargetDependency */,
+			);
+			name = picoyplacatestTests;
+			productName = picoyplacatestTests;
+			productReference = 5FC2973A23A9AF4C004BA2B2 /* picoyplacatestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FC2974423A9AF4C004BA2B2 /* picoyplacatestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FC2975423A9AF4C004BA2B2 /* Build configuration list for PBXNativeTarget "picoyplacatestUITests" */;
+			buildPhases = (
+				5FC2974123A9AF4C004BA2B2 /* Sources */,
+				5FC2974223A9AF4C004BA2B2 /* Frameworks */,
+				5FC2974323A9AF4C004BA2B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FC2974723A9AF4C004BA2B2 /* PBXTargetDependency */,
+			);
+			name = picoyplacatestUITests;
+			productName = picoyplacatestUITests;
+			productReference = 5FC2974523A9AF4C004BA2B2 /* picoyplacatestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FC2971B23A9AF45004BA2B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Diego Cando";
+				TargetAttributes = {
+					5FC2972223A9AF45004BA2B2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5FC2973923A9AF4C004BA2B2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5FC2972223A9AF45004BA2B2;
+					};
+					5FC2974423A9AF4C004BA2B2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5FC2972223A9AF45004BA2B2;
+					};
+				};
+			};
+			buildConfigurationList = 5FC2971E23A9AF45004BA2B2 /* Build configuration list for PBXProject "picoyplacatest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FC2971A23A9AF45004BA2B2;
+			productRefGroup = 5FC2972423A9AF45004BA2B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FC2972223A9AF45004BA2B2 /* picoyplacatest */,
+				5FC2973923A9AF4C004BA2B2 /* picoyplacatestTests */,
+				5FC2974423A9AF4C004BA2B2 /* picoyplacatestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FC2972123A9AF45004BA2B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC2973423A9AF4C004BA2B2 /* LaunchScreen.storyboard in Resources */,
+				5FC2973123A9AF4C004BA2B2 /* Assets.xcassets in Resources */,
+				5FC2977823A9CF82004BA2B2 /* IQKeyboardManager.bundle in Resources */,
+				5FC2972C23A9AF45004BA2B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC2973823A9AF4C004BA2B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC2974323A9AF4C004BA2B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FC2971F23A9AF45004BA2B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC2977A23A9CF82004BA2B2 /* IQNSArray+Sort.swift in Sources */,
+				5FC2977423A9CF82004BA2B2 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				5FC2977623A9CF82004BA2B2 /* IQKeyboardManagerConstants.swift in Sources */,
+				5FC2978223A9D3BA004BA2B2 /* Functions.swift in Sources */,
+				5FC2972923A9AF45004BA2B2 /* ViewController.swift in Sources */,
+				5FC2972723A9AF45004BA2B2 /* AppDelegate.swift in Sources */,
+				5FC2977923A9CF82004BA2B2 /* IQKeyboardManager.swift in Sources */,
+				5FC2977C23A9CF82004BA2B2 /* IQUITextFieldView+Additions.swift in Sources */,
+				5FC2977D23A9CF82004BA2B2 /* IQUIView+Hierarchy.swift in Sources */,
+				5FC2977123A9CF82004BA2B2 /* IQPreviousNextView.swift in Sources */,
+				5FC2976F23A9CF82004BA2B2 /* IQBarButtonItem.swift in Sources */,
+				5FC2977B23A9CF82004BA2B2 /* IQUIScrollView+Additions.swift in Sources */,
+				5FC2977523A9CF82004BA2B2 /* IQTextView.swift in Sources */,
+				5FC2977E23A9CF82004BA2B2 /* IQUIViewController+Additions.swift in Sources */,
+				5FC2972F23A9AF45004BA2B2 /* picoyplacatest.xcdatamodeld in Sources */,
+				5FC2977023A9CF82004BA2B2 /* IQInvocation.swift in Sources */,
+				5FC2977223A9CF82004BA2B2 /* IQTitleBarButtonItem.swift in Sources */,
+				5FC2977F23A9CF82004BA2B2 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				5FC2977323A9CF82004BA2B2 /* IQToolbar.swift in Sources */,
+				5FC2977723A9CF82004BA2B2 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC2973623A9AF4C004BA2B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC2973F23A9AF4C004BA2B2 /* picoyplacatestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC2974123A9AF4C004BA2B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC2974A23A9AF4C004BA2B2 /* picoyplacatestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FC2973C23A9AF4C004BA2B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FC2972223A9AF45004BA2B2 /* picoyplacatest */;
+			targetProxy = 5FC2973B23A9AF4C004BA2B2 /* PBXContainerItemProxy */;
+		};
+		5FC2974723A9AF4C004BA2B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FC2972223A9AF45004BA2B2 /* picoyplacatest */;
+			targetProxy = 5FC2974623A9AF4C004BA2B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FC2972A23A9AF45004BA2B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FC2972B23A9AF45004BA2B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FC2973223A9AF4C004BA2B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FC2973323A9AF4C004BA2B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FC2974C23A9AF4C004BA2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FC2974D23A9AF4C004BA2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FC2974F23A9AF4C004BA2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C26ZHA3GQD;
+				INFOPLIST_FILE = picoyplacatest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inc205.picoyplacatest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FC2975023A9AF4C004BA2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C26ZHA3GQD;
+				INFOPLIST_FILE = picoyplacatest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inc205.picoyplacatest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5FC2975223A9AF4C004BA2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C26ZHA3GQD;
+				INFOPLIST_FILE = picoyplacatestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inc205.picoyplacatestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/picoyplacatest.app/picoyplacatest";
+			};
+			name = Debug;
+		};
+		5FC2975323A9AF4C004BA2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C26ZHA3GQD;
+				INFOPLIST_FILE = picoyplacatestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inc205.picoyplacatestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/picoyplacatest.app/picoyplacatest";
+			};
+			name = Release;
+		};
+		5FC2975523A9AF4C004BA2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C26ZHA3GQD;
+				INFOPLIST_FILE = picoyplacatestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inc205.picoyplacatestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = picoyplacatest;
+			};
+			name = Debug;
+		};
+		5FC2975623A9AF4C004BA2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C26ZHA3GQD;
+				INFOPLIST_FILE = picoyplacatestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inc205.picoyplacatestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = picoyplacatest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FC2971E23A9AF45004BA2B2 /* Build configuration list for PBXProject "picoyplacatest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC2974C23A9AF4C004BA2B2 /* Debug */,
+				5FC2974D23A9AF4C004BA2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FC2974E23A9AF4C004BA2B2 /* Build configuration list for PBXNativeTarget "picoyplacatest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC2974F23A9AF4C004BA2B2 /* Debug */,
+				5FC2975023A9AF4C004BA2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FC2975123A9AF4C004BA2B2 /* Build configuration list for PBXNativeTarget "picoyplacatestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC2975223A9AF4C004BA2B2 /* Debug */,
+				5FC2975323A9AF4C004BA2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FC2975423A9AF4C004BA2B2 /* Build configuration list for PBXNativeTarget "picoyplacatestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC2975523A9AF4C004BA2B2 /* Debug */,
+				5FC2975623A9AF4C004BA2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5FC2972D23A9AF45004BA2B2 /* picoyplacatest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5FC2972E23A9AF45004BA2B2 /* picoyplacatest.xcdatamodel */,
+			);
+			currentVersion = 5FC2972E23A9AF45004BA2B2 /* picoyplacatest.xcdatamodel */;
+			path = picoyplacatest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5FC2971B23A9AF45004BA2B2 /* Project object */;
+}
